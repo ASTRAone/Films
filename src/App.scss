@@ -1,0 +1,18 @@
+.App {
+  max-width: 1263px;
+  margin: 0 auto;
+  
+
+  &-header {
+  }
+
+  &-search {
+    margin-top: 20px;
+  }
+
+  &-content {
+    margin-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

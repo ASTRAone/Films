@@ -1,0 +1,14 @@
+.failed-loading {
+  margin: 0 auto;
+  padding-top: 100px;
+  text-align: center;
+
+  &__title {
+    margin-bottom: 10px;
+    font-size: 30px;
+  }
+
+  &__text {
+    font-size: 20px;
+  }
+}

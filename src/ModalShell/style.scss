@@ -1,0 +1,39 @@
+.modal-card-container {
+  width: 600px;
+  border: 2px solid darkgrey;
+  padding-top: 10px;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+}
+
+figure {
+  margin: auto;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="search"],
+input[type="text"] {
+  -webkit-appearance: textarea;
+}
+
+@media (max-width: 610px) {
+  .modal-card-container {
+    max-width: 400px;
+    height: 500px;
+    overflow-x: hidden;
+  }
+}
+
+@media (max-width: 420px) {
+  .modal-card-container {
+    max-width: 300px;
+  }
+}

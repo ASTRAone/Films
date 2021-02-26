@@ -1,0 +1,90 @@
+.card-info {
+  &__closed {
+    text-align: right;
+    padding-bottom: 20px;
+  }
+
+  &__closed > i {
+    color: black;
+    font-size: 22px;
+    cursor: pointer;
+  }
+}
+
+.card-info-content {
+  display: flex;
+  justify-content: space-around;
+
+  &__img {
+    width: 200px;
+    height: 300px;
+    border-radius: 5px;
+  }
+
+  &__our {
+    color: black;
+    max-width: 300px;
+    width: 300px;
+  }
+
+  &__hint {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  &__text_title {
+    text-align: center !important;
+  }
+
+  &__hint:first-child {
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+  &__hint:last-child {
+    display: block;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+  }
+
+  &__title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  &__title:first-child {
+    margin-right: 10px;
+  }
+
+  &__text {
+    text-align: left;
+    font-size: 20px;
+  }
+
+  &__text:last-child {
+    text-align: justify;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 610px) {
+  .films-item {
+    margin-right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card-info-content {
+    display: block;
+  }
+
+  .card-info-content__our {
+    width: auto;
+    margin: 0 auto;
+  }
+
+  .card-info-content__hint:first-child {
+    justify-content: center;
+    margin-top: 20px;
+  }
+}

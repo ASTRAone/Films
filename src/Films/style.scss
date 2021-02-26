@@ -1,0 +1,15 @@
+.films-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 540px) {
+  .films-container {
+    display: block;
+  }
+
+  
+}
