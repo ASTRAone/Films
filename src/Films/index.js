@@ -1,5 +1,6 @@
-import React, { Fragment, useState } from 'react';
+import React, { useState } from 'react';
 import './style.scss';
+import './media.scss';
 
 import FilmsItem from '../FilmsItem/index';
 import FailedLoading from '../FailedLoading/index';

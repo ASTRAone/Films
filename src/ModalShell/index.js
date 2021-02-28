@@ -1,7 +1,8 @@
 import React from 'react';
 import './style.scss';
+import './media.scss';
 
-import { Button, Header, Image, Modal, Icon  } from 'semantic-ui-react';
+import { Modal } from 'semantic-ui-react';
 
 const ModalShell = (props) => {
     return (

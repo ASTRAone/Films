@@ -67,24 +67,3 @@
   }
 }
 
-@media (max-width: 610px) {
-  .films-item {
-    margin-right: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .card-info-content {
-    display: block;
-  }
-
-  .card-info-content__our {
-    width: auto;
-    margin: 0 auto;
-  }
-
-  .card-info-content__hint:first-child {
-    justify-content: center;
-    margin-top: 20px;
-  }
-}

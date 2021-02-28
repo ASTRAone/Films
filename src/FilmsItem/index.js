@@ -1,5 +1,6 @@
 import React from 'react';
-import './style.scss';
+import './style.scss'
+import '.media.scss';
 
 import { arrImages } from '../utils/constants';
 import imgDef from '../logo.svg';

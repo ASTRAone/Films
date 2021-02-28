@@ -1,5 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import './style.scss';
+import './media.scss';
 
 import imgDef from '../logo.svg';
 import { arrImages } from '../utils/constants';
@@ -12,7 +13,6 @@ const CardInfo = (props) => {
         if (img) {
             return img;
         }
-
         return imgDef;
     };
 
